@@ -144,11 +144,11 @@ Input (4 channels) → Preprocessing → ChronoNet → 3-Class Softmax
 
 ### **Performance Metrics**
 
-| System | Channels | Pre-ictal Sens. | Overall Acc. | Training Time | Model Size |
-|--------|----------|----------------|--------------|---------------|------------|
-| **EEG-only** | 2 | 51.93% | 71.31% | 5 min | 2.3 MB |
-| **Multi-modal** | 4 | **58-64%**  | **74-78%**  | 1.5 hr | 2.5 MB |
-| **Improvement** | +2 | **+6-12%** | **+3-7%** | +85 min | +0.2 MB |
+| System | Channels | Pre-ictal Sens. | Pre-ictal Acc. | Model Size |
+|--------|----------|----------------|--------------|------------|
+| **EEG-only** | 2 | 51.93% | 71.31% | 2.3 MB |
+| **Multi-modal** | 4 | **58-64%**  | **74-78%** | 2.5 MB |
+| **Improvement** | +2 | **+6-12%** | **+3-7%** | +0.2 MB |
 
 *(Multi-modal results: preliminary - training in progress)*
 
